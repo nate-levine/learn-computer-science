@@ -139,7 +139,7 @@ def get_attendance_data():
     attendance = {}
 
     # Notion integration key HIDE THIS WHEN UPLOADING TO GITHUB
-    NOTION_KEY = "secret_DAsh6WmLl7Dac1pCoZISxWJSVwjyBUkeSJjeqGyVb92"
+    NOTION_KEY = "KEY GOES HERE"
     # Headers
     headers = {
         "Authorization": f"Bearer {NOTION_KEY}",
