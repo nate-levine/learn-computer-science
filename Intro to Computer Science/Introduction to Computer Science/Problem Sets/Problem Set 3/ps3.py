@@ -3,9 +3,9 @@
 # The 6.0001 Word Game
 # Created by: Kevin Luu <luuk> and Jenna Wiens <jwiens>
 #
-# Name          : <your name>
+# Name          : Nate Levine
 # Collaborators : <your collaborators>
-# Time spent    : <total time>
+# Time spent    : 2:30
 
 import math
 import random

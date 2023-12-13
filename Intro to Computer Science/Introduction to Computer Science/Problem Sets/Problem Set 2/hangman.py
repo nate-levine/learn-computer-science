@@ -1,7 +1,7 @@
 # Problem Set 2, hangman.py
-# Name: 
+# Name: Nate Levine
 # Collaborators:
-# Time spent:
+# Time spent: 1:45
 
 # Hangman Game
 # -----------------------------------
