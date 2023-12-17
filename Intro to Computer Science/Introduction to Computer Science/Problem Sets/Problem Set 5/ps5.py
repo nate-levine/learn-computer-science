@@ -1,7 +1,7 @@
 # 6.0001/6.00 Problem Set 5 - RSS Feed Filter
 # Name:
 # Collaborators:
-# Time: 12:00pm-12:20pm, 2:10pm-4:20pm : 5:50am-6:10am : 12:30pm - 1:15pm, 3:15pm - 3:30pm 
+# Time: 3:45
 
 import feedparser
 import string
