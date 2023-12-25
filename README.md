@@ -1,5 +1,16 @@
 # learn-computer-science
-A formal computer science education through Open Source Society University.
+A formal computer science education through Open Source Society University. 
+# 🧭 Table of Contents
+- [🚀 Preface](#---preface)
+    + [💼 Career Development](#---career-development)
+    + [⏰ Statement of Commitment](#--statement-of-commitment)
+    + [✏️ Copyright](#---copyright)
+- [🐍 Harvard - CS50 - Introduction to Programming with Python](#---harvard---cs50---introduction-to-programming-with-python)
+  * [🔙 Retrospective](#---retrospective)
+  * [🔑 *Key Takeaways*](#----key-takeaways-)
+- [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python](#------mit---60001---introduction-to-computer-science-and-programming-using-python)
+  * [🔙 Retrospective](#---retrospective-1)
+  * [🔑 *Key Takeaways*](#----key-takeaways--1)
 
 ---
 
@@ -69,6 +80,8 @@ Like most online courses, take the time to pause or slow down the playback speed
 
 ---
 
-### README Revision History
-*November 25, 2023: ADDED Preface, Harvard - CS50 - Introduction to Programming with Python*.
-*December 25, 2023: ADDED MIT - 6.0001 - Introduction to Computer Science and Programming using Python. REVISED Preface, Harvard - CS50 - Introduction to Programming with Python*.
+### README Changelog
+Date | Changes
+--- | ---
+November 25, 2023 | <ul><li>**ADDED** Preface, Harvard - CS50 - Introduction to Programming with Python.</li></ul>
+December 25, 2023 | <ul><li>**ADDED** Table of Contents, MIT - 6.0001 - Introduction to Computer Science and Programming using Python.</li><li>**REVISED** Preface, Harvard - CS50 - Introduction to Programming with Python.</li></ul>
