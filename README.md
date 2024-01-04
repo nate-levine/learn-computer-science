@@ -101,7 +101,7 @@ Much of what I learned from this course stems from the fact that the Racket prog
 * Data structures like binary search trees, arbitrary arity trees, and graphs.
 * Searching, sorting, and other algorithms.
 * The difference between structural and generative recursion, and how to implement them.
-* Lambda expressions
+* Lambda expressions.
 ### 👎 Dislikes
 The DrRacket IDE is slow and clunky, and many keywords in the Racket language are oddly cryptic. Writing a "big-bang" function for my "world program" was just one of many times when I wondered if the creators of Racket thought it more important to be unique than practical. In addition to this, every expression in Racket is enclosed in parentheses. _This came to its natural conclusion when I found myself nesting up to eight sets of parentheses for a program_. While this issue can be partially remedied by careful and consistent indentation, it makes the program design process a nightmare. I believe that the onus for designing readable code should fall on the designer(s) of a language's syntax first and foremost. Programmers should not be limited by a programming language when trying to write readable code.
 
@@ -121,6 +121,6 @@ Like Kiczales suggests, program ahead of him at times (when you are feeling conf
 ### README Changelog
 Date | Changes
 --- | ---
-November 25, 2023 | <ul><li>**ADDED**<ul><li>Preface, Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
+November 25, 2023 | <ul><li>**ADDED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
 December 25, 2023 |  <ul><li>**ADDED**<ul><li>Table of Contents</li><li>MIT - 6.0001 - Introduction to Computer Science and Programming using Python.</li></ul></li><li>**REVISED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
 January 03, 2024 | <ul><li>**ADDED**<ul><li>UBC - CPSC110 - Systematic Program Design.</li></ul></li></ul>
