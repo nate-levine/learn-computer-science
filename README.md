@@ -1,19 +1,21 @@
 # learn-computer-science
-A formal computer science education through Open Source Society University. 
+A formal computer science education through Open Source Society University.  
+
+_Learn more about Open Source Society University at:_ [ossu/computer-science](https://github.com/ossu/computer-science)
 # 🧭 Table of Contents
-- [🚀 Preface](#---preface)
-    + [💼 Career Development](#---career-development)
-    + [⏰ Statement of Commitment](#--statement-of-commitment)
-    + [✏️ Copyright](#---copyright)
-- [🐍 Harvard - CS50 - Introduction to Programming with Python](#---harvard---cs50---introduction-to-programming-with-python)
-  * [🔙 Retrospective](#---retrospective)
-  * [🔑 *Key Takeaways*](#----key-takeaways-)
-- [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python](#------mit---60001---introduction-to-computer-science-and-programming-using-python)
-  * [🔙 Retrospective](#---retrospective-1)
-  * [🔑 *Key Takeaways*](#----key-takeaways--1)
-- [🧪 UBC - CPSC110 - Systematic Program Design](#------ubc---cpsc110---systematic-program-design)
-  * [🔙 Retrospective](#---retrospective-2)
-  * [🔑 *Key Takeaways*](#----key-takeaways--2)
+- [🚀 Preface](#preface)
+    + [💼 Career Development](#career-development)
+    + [⏰ Statement of Commitment](#statement-of-commitment)
+    + [✏️ Copyright](#copyright)
+- [🐍 Harvard - CS50 - Introduction to Programming with Python](#harvard---cs50---introduction-to-programming-with-python)
+  * [🔙 Retrospective](#retrospective)
+  * [🔑 *Key Takeaways*](#key-takeaways-)
+- [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python](#mit---60001---introduction-to-computer-science-and-programming-using-python)
+  * [🔙 Retrospective](#retrospective-1)
+  * [🔑 *Key Takeaways*](#key-takeaways--1)
+- [🧪 UBC - CPSC110 - Systematic Program Design](#ubc---cpsc110---systematic-program-design)
+  * [🔙 Retrospective](#retrospective-2)
+  * [🔑 *Key Takeaways*](#key-takeaways--2)
 
 ---
 
