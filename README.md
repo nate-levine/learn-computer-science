@@ -11,6 +11,9 @@ A formal computer science education through Open Source Society University.
 - [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python](#------mit---60001---introduction-to-computer-science-and-programming-using-python)
   * [🔙 Retrospective](#---retrospective-1)
   * [🔑 *Key Takeaways*](#----key-takeaways--1)
+- [🧪 UBC - CPSC110 - Systematic Program Design](#------ubc---cpsc110---systematic-program-design)
+  * [🔙 Retrospective](#---retrospective-2)
+  * [🔑 *Key Takeaways*](#----key-takeaways--2)
 
 ---
 
@@ -80,8 +83,44 @@ Like most online courses, take the time to pause or slow down the playback speed
 
 ---
 
+# 🧪 UBC - CPSC110 - Systematic Program Design
+Start Date: `12/25/2023` ---> End Date: `01/03/2024`
+Time | Estimate | Actual
+--- | --- | ---
+Weeks | 13 | 1.5
+Hours | 104-130 | 54.8
+Hours/Week | 8-10 | 36.5
+## 🔙 Retrospective
+Before taking this course I assumed that a skilled intution for designing programs could only be developed though exposure and practice. Professor Gregor Kiczales' instruction in CPSC110 has managed to convince me otherwise. During the course, Kiczales shows how simple design techniques can be built upon one another to write functions for increasingly complex programs. He constantly expresses the importance of learning by doing, and encourges students to work ahead of him to gain an intuition for program design on their own. At first, I disliked the course's slow pacing. Over time however, I came to realize that this slow pace allows him to methodically step through the thought-process needed for designing functions. CPSC110 emphasizes the importance of working through the design process correctly rather than quickly.
+
+My only exposure to Racket was listening to my CS- and DS-major friends complain about how terrible it is. After heavy exposure to the language myself I can't say I disagree, but did I find that Racket excels at teaching systematic program design. The almost laughable simplicity of the Racket programming language forces you to start from first principles and not rely on higher-level program abstractions to solve problems. This benefits in the fact that barely more than a single lecture is spent getting comfortable with the language, which allows students to focus on the important part of the course, program design.
+### 💡 What I Learned
+This course is valuable in the fact that it teaches students to design programs in a, well, systematic manner. It first steps through converting real world information into data definitions implemented in code. Kiczales details how these "data definitions" can be used to create templates for functions that operate on those data definitions. I will admit that at first I was skeptical that these templates were a one-size-fits-all skeleton for any function. Despite my skepticism, it is proven through example that these templates are able to be adapted to any function necessary. Although it is not explicitly shown in the course, it is stated that the systematic program design process is built on top of some pretty solid computer science theory. I was also introduced to the process of function design, where an algorithm is taken from a signature and purpose to a working function. CPSC110's goal is, as Kiczales says, to break program design down to a science, rather than typing characters and hoping.
+
+Much of what I learned from this course stems from the fact that the Racket programming language is purely functional. Due to the absence of state, you are required to use helper functions and recursion to implement programs. After taking this course, I understand and feel more comfortable using induction to design recursive functions. I also learned about and have a better understanding of:
+* Data structures like binary search trees, arbitrary arity trees, and graphs.
+* Searching, sorting, and other algorithms.
+* The difference between structural and generative recursion, and how to implement them.
+* Lambda expressions.
+### 👎 Dislikes
+The DrRacket IDE is slow and clunky, and many keywords in the Racket language are oddly cryptic. Writing a "big-bang" function for my "world program" was just one of many times when I wondered if the creators of Racket thought it more important to be unique than practical. In addition to this, every expression in Racket is enclosed in parentheses. _This came to its natural conclusion when I found myself nesting up to eight sets of parentheses for a program_. While this issue can be partially remedied by careful and consistent indentation, it makes the program design process a nightmare. I believe that the onus for designing readable code should fall on the designer(s) of a language's syntax first and foremost. Programmers should not be limited by a programming language when trying to write readable code.
+
+A major gripe with the course specificlly is that the final project is off-limits to students that do not pay for the certificate of completion. I would have liked the opportunity to use the skills I developed through the second half of the course in a cumulative exercise. The practice problems and midterm project are available for free, so I in reality I don't feel like I missed out on much.
+### 🤔 Suggestions for Students
+Get comfortable using recursion. A purely functional programming language means no iteration, which means that you need to gain a deep understanding of recursive programs in order to succeed.
+
+Like Kiczales suggests, program ahead of him at times (when you are feeling confident) to prove to yourself that you aren't blindly programming along with him.
+## 🔑 *Key Takeaways*
+* Systematic design uses higher-level design concepts to break down complicated problems to a point where one can solve them simply.
+* Identifying the structure of information is a key step in program design.
+* Unit tests should be made before writing a function, as this allows you to figure out what you really want the output of the function to be.
+* Given a base case, trust that the natural recursion in a program will work as expected.
+  
+---
+
 ### README Changelog
 Date | Changes
 --- | ---
-November 25, 2023 | <ul><li>**ADDED** Preface, Harvard - CS50 - Introduction to Programming with Python.</li></ul>
-December 25, 2023 | <ul><li>**ADDED** Table of Contents, MIT - 6.0001 - Introduction to Computer Science and Programming using Python.</li><li>**REVISED** Preface, Harvard - CS50 - Introduction to Programming with Python.</li></ul>
+November 25, 2023 | <ul><li>**ADDED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
+December 25, 2023 |  <ul><li>**ADDED**<ul><li>Table of Contents</li><li>MIT - 6.0001 - Introduction to Computer Science and Programming using Python.</li></ul></li><li>**REVISED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
+January 03, 2024 | <ul><li>**ADDED**<ul><li>UBC - CPSC110 - Systematic Program Design.</li></ul></li></ul>
