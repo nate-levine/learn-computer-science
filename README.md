@@ -144,21 +144,21 @@ Time | Estimate | Actual
 Weeks | 11 | 4
 Hours | 44-88 | 90
 Hours/Week | 4-8 | 22.5
-## Retrospective
+## 🔙 Retrospective
  “Programming Languages” is quite a misleading course name, since the focus of the course is not on the syntax of different programming languages, but the semantics and idioms that they all share. Professor Dan Grossman’s extensive knowledge of programming languages, along with his dry humor, makes this course’s lecture videos a pleasure to sit through. His lectures “pull back the curtain” on programming constructs to understand them at their most basic and fundamental level. It is extremely interesting to see how all programming languages, at their core, can be broken down into their semantics, type checking rules, and evaluation rules. Although this course uses ML, Racket, and Ruby, it is repeatedly emphasized that the focus of the course is not on those languages and that they are only conduits to understand the more foundational aspects of programming languages. For example, ML and Ruby are contrasted to understand the differences between statically versus dynamically typed languages, and functional versus object-oriented languages. Over time, ideas are accumulated such that they can be compared and contrasted with new concepts taught. This makes for a course that, at first seems shallow in its content, but makes for some satisfying realizations later on about the inner workings of any programming language.
 
 I’ve found that this course is the most challenging one I’ve taken so far. The homework is exacting in the sense that you have to read the requirements very carefully to receive a satisfactory grade. In addition to the complex homeworks, there are three exams interspersed throughout to test your knowledge of the course material. This contrasts with the previous courses I’ve taken which ask you to apply your knowledge to homework, but do not test it any further beyond that. Course material is locked behind homework and exams, that you must get an 80% or higher on in order to access. By the end, this makes the student feel much more accomplished with their completion of the course. Grossman is extremely aware of the accomplishments of those who are able to complete the course and openly acknowledges the many hours of work students invest into completing it.
-### What I Learned
+### 💡 What I Learned
 The most important idea that Grossman draws attention to is that programming languages are only interfaces for writing software and that programming language semantics are more important, since they are the rules that determine how a program behaves. The homeworks are built in a way to apply and challenge your newfound knowledge of these semantics. For example, I found the programming construct “thunks” extremely difficult to understand. It was only when, in a homework that focuses on streams, that I was asked to use them, that I was forced to take the time to understand them to do the homework properly.
 
 This may seem obvious. Of course you need to understand the ideas presented in a homework to do well on it. However, these homeworks need to be understood deeply enough so that by the time you finish the homework, you feel like you have learned something rather than having just scrapped by. This is especially important since much of the content in this course is naturally cumulative, and therefore you will have the knowledge needed to tackle problems when old concepts are revisited.
 
 My favorite learning experience was from what is touted as the most challenging homework. This homework is unique since the goal is to write a made-up programming language interpreter. This homework was remarkably effective for strengthening my understanding of interpreters, and it really felt like an application of my cumulative knowledge so far in that course. The implementation of a target language using a metalanguage (in this case, Racket) was a great way to understand what goes on under the hood of many programming languages. It reshaped my entire understanding about how functions are evaluated, and made the differences between functions, closures, and environments clear to me. It was also important for understanding how an interpreter error-checks a dynamic language.
-### Dislikes
+### 👎 Dislikes
 Unfortunately, the image of Grossman jumping up and down telling me that subtyped function arguments are contravariant is still burned into my brain.
-### Suggestions for Students
+### 🤔 Suggestions for Students
 This is a challenging course. Make sure you understand the lecture material, or you will not pass the homework or exams. Take time to understand each language construct and how they work together to create more complex behavior.
-## *Key Takeaways*
+## 🔑 *Key Takeaways*
 * All programming language behaviors are the result of semantics, type checking, and evaluation rules.
     * Syntax is just an interface for writing software.
 * Often, compiled/interpreted, statically/dynamically typed, and functional/object-oriented programming languages do not exist as most sit on a spectrum between these hard definitions.
