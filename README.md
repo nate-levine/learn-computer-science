@@ -189,4 +189,4 @@ Date | Changes
 November 25, 2023 | <ul><li>**ADDED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
 December 25, 2023 |  <ul><li>**ADDED**<ul><li>Table of Contents</li><li>MIT - 6.0001 - Introduction to Computer Science and Programming using Python.</li></ul></li><li>**REVISED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
 January 03, 2024 | <ul><li>**ADDED**<ul><li>UBC - CPSC110 - Systematic Program Design.</li></ul></li></ul>
-February XX, 2024 |  <ul><li>**ADDED**<ul><li>What is OSSU?</li><li>How This Repository is Organized</li><li>Programming Languages<ul><li>Perhaps I Was Too Hard on Racket (Bonus Segment)</li></ul></li></ul></li><li>**REVISED**<ul><li>Preface</li>Systematic Program Design</li></ul></li></ul>
+February 08, 2024 |  <ul><li>**ADDED**<ul><li>What is OSSU?</li><li>How This Repository is Organized</li><li>Programming Languages<ul><li>Perhaps I Was Too Hard on Racket (Bonus Segment)</li></ul></li></ul></li><li>**REVISED**<ul><li>Preface</li>Systematic Program Design</li></ul></li></ul>
