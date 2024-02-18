@@ -1,0 +1,14 @@
+%% Visualize this state diagram with Mermaid JS
+%% Practice solution
+---
+title: Airplane States
+---
+stateDiagram
+    [*] --> Waiting
+    Waiting --> Assigned : plane is chosen for a flight
+    Assigned --> EnRoute : plane is in the air and flying
+    EnRoute --> Landing : plane prepares for arrival
+    Landing --> Maintenance : maintenance is required
+    Landing --> Assigned : maintenance is not required
+    Maintenance --> Assigned : plane is repaired
+    Maintenance --> [*] : plane cannot be repaired

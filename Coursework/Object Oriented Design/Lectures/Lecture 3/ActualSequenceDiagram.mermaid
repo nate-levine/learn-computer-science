@@ -1,0 +1,32 @@
+%% Visualize this sequence diagram with Mermaid JS
+%% Actual solution 
+---
+title: North American Airports
+---
+sequenceDiagram
+    actor Customer
+    participant Website
+    participant Database
+    participant Cart
+
+    activate Customer
+    activate Website
+        Customer ->> Website: searchAvailableFlights(location, arrivalDate)
+    activate Database
+        Website ->> Database: searchDatabaseForFlights(location, arrivalDate)
+        Database --) Website: available flights
+        Website --) Customer: display available flights
+    deactivate Database
+        Customer ->> Website: addFlightToCart(flight)
+    activate Cart
+        Website ->> Cart: addFlightToCart(flight)
+        Customer ->> Website: checkout(cart)
+    activate Database
+        Website ->> Database: confirmFlight(flight)
+        Customer ->> Website: payment(paymentInfo)
+    deactivate Database
+        Website ->> Cart: emptyCart()
+        Website --) Customer: display purchased ticket
+    deactivate Cart
+    deactivate Website   
+    deactivate Customer

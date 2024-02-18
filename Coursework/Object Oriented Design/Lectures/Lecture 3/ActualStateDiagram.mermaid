@@ -1,0 +1,15 @@
+%% View this state diagram with Mermaid JS
+%% Actual solution
+---
+title: Airplane States
+---
+stateDiagram
+    [*] --> Unassigned
+    Unassigned --> Maintenance : needsRepair()
+    Unassigned --> Assigned : assignPlane()
+    Assigned --> EnRoute : takeoff()
+    EnRoute --> Landing : landing()
+    Landing --> Maintenance : needsRepair()
+    Landing --> Unassigned : reset()
+    Maintenance --> Unassigned : ready()
+    Maintenance --> [*] : unable to repair

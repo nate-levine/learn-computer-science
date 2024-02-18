@@ -1,0 +1,16 @@
+%% Visualize this class diagram with Mermaid JS
+%% Actual solution
+---
+title: Car rental company that keeps track of cars, renter, and renter renting cars
+---
+classDiagram
+    RentalCompany "1" o-- "0..*" Car
+    RentalCompany "1" o-- "0..*" Rental
+    RentalCompany "1" o-- "0..*" Renter
+    Rental "1" o-- "1" Car
+    Rental "0..*" o-- "1" Renter
+    class RentalCompany
+    class Car
+    class Rental
+    class Renter 
+
