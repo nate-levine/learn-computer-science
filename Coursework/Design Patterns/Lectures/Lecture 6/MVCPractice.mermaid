@@ -1,0 +1,51 @@
+%% View this class diagram with Mermaid JS
+%% Practice solution
+---
+title: Coffee Shop Admin Interface
+---
+classDiagram
+    direction LR
+        Controller ..> EmployeeDatabase
+        EmployeeDatabase o-- "0..*" DatabaseObserver
+        DatabaseObserver <.. Display
+        Display --> Controller
+    end
+
+    class EmployeeDatabase {
+        -name : String
+        -ID : int
+        -title : String
+        -salary : float
+        %% Keep track of subscribed views
+        -displays : List[Display]
+
+        +registerObserver(Observer) void
+        +unregisterObserver(Observer) void
+        +notify() void
+    }
+
+    %% Views inherit from DatabaseObserver interface
+    %% so EmployeeDatabase.notify can update all the views
+    class DatabaseObserver {
+        <<interface>>
+        +update() void
+    }
+
+    %% Display implements DatabaseObserver
+    class Display {
+        %% update() updates all employee information
+        +update() void
+    }
+
+    %% The controller contains getter and setter
+    %% methods to modify the data in EmployeeDatabase
+    class Controller {
+        +getName() String
+        +getID() int
+        +getTitle() String
+        +getSalary() float
+        +setName(name : String) void
+        +setID(ID : int) void
+        +setTitle(t : String) void
+        +setSalary(salary : float) void
+    }
