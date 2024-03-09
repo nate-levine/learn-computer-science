@@ -4,7 +4,7 @@
     + [💼 Career Development]()
     + [🤷‍♂️ What is OSSU?]()
     + [⏰ Statement of Commitment]()
-    + [✏️ Copyright]()
+    + [✏️ Fair Use]()
 - [🗃️ How This Repository is Organized]()
 - [🐍 Harvard - CS50 - Introduction to Programming with Python]()
 - [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python]()
