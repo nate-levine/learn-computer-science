@@ -1,17 +1,17 @@
 # learn-computer-science
-FIX TOC
 # 🧭 Table of Contents
 - [🚀 Preface]()
     + [💼 Career Development]()
     + [🤷‍♂️ What is OSSU?]()
     + [⏰ Statement of Commitment]()
-    + [✏️ Copyright]()
+    + [✏️ Fair Use]()
 - [🗃️ How This Repository is Organized]()
 - [🐍 Harvard - CS50 - Introduction to Programming with Python]()
 - [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python]()
 - [📏 UBC - CPSC110 - Systematic Program Design]()
 - [🧪 UW – CSE341 – Programming Languages A, B, & C]()
-    + [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)]() 
+    + [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)]()
+- [♨️ UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture]()
 
 ---
 
@@ -33,7 +33,7 @@ The courses selected are open for free enrollment and are “of high quality in 
 _Learn more about Open Source Society University at:_ [ossu/computer-science](https://github.com/ossu/computer-science)
 ### ⏰ Statement of Commitment
 *I intend to commit 20 hours a week, or slightly less than 3 hours every day to learning computer science. This number is intended to be an average, and it is acceptable if the hours I spend on OSSU vary day-by-day. However, I do intend to commit at least 30 minutes every day to this education.*
-### ✏️ Copyright
+### ✏️ Fair Use
 *I give permission for any person to distribute or share this README article for informational or entertainment purposes only. I do not give permission for this README article to be distributed for monetary gain without my consent. I do not give permission for any person to plagiarize this article or claim it as their own original work.*
 
 ---
@@ -118,11 +118,11 @@ Before taking this course, I assumed that a skilled intuition for designing prog
 My only exposure to Racket before taking this course was listening to my CS- and DS-major friends complain about how terrible it is. After heavy exposure to the language myself I can't say I disagree, but did I find that Racket excels at teaching systematic program design. Racket’s simplicity compared to other programming languages forces you to start from first principles and not rely on higher-level program abstractions to solve problems. This benefits in the fact that barely more than a single lecture is spent getting comfortable with the language, which allows students to focus less on the language and more on systematic program design.
 ### 💡 What I Learned
 This course is valuable in the fact that it teaches students to design programs in a, well, systematic manner. You are first taught the best practices to convert real world information into data definitions implemented in code. Kiczales details how these "data definitions" can be used to create templates for functions that operate on those data definitions. I will admit that at first, I was skeptical that these templates were a one-size-fits-all skeleton for any function. Despite my skepticism, it is proven through example that these templates can be adapted to any function necessary. Although it is not shown in the course, it is mentioned that the systematic program design process taught is built on top of a very solid foundation of computer science theory. This leads into the process of systematic function design, where an algorithm is taken from a type signature to a working function through a series of increasingly involved steps. CPSC110's goal is, as Kiczales says, to break program design down to a science, rather than typing code and hoping for the best.
->> I’ve continued to apply the systematic design process to future courses, and I can say with certainty that it makes designing functional programs much easier. In addition, it has encouraged me to spend more time writing unit tests, as I have found them extremely useful for understanding how a functions should work before I invest time coding them.
+>I’ve continued to apply the systematic design process to future courses, and I can say with certainty that it makes designing functional programs much easier. In addition, it has encouraged me to spend more time writing unit tests, as I have found them extremely useful for understanding how a functions should work before I invest time coding them.
 ### 👎 Dislikes
 The DrRacket IDE is slow and clunky, and many keywords in the Racket language are oddly cryptic. Writing a "big bang" function for my "world program" was just one of many times when I wondered if the creators of Racket thought it more important to be unique than practical. In addition to this, every expression in Racket is enclosed in parentheses. _This came to its natural conclusion when I found myself nesting up to eight sets of parentheses for a program_. While this issue can be partially remedied by careful and consistent indentation, it makes the program design process a nightmare. I believe that the onus for designing readable code should fall on the designer(s) of a language's syntax first and foremost. Programmers should not be limited by a programming language when trying to write readable code.
 
->>While I still believe that programming languages should be designed to be readable, my opinions about Racket have changed significantly after taking the University of Washington Seattle’s Programming Languages course. You can read my updated thoughts on Racket in [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)]()
+>While I still believe that programming languages should be designed to be readable, my opinions about Racket have changed significantly after taking the University of Washington Seattle’s Programming Languages course. You can read my updated thoughts on Racket in [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)]()
 
 A major gripe with the course specifically is that the final project is off-limits to students that do not follow the paid track. I would have liked the opportunity to use the skills I developed through the second half of the course in a cumulative exercise. Fortunately, the practice problems and midterm project are available for free, so I don't feel that I missed out on much.
 ### 🤔 Suggestions for Students
@@ -177,16 +177,63 @@ One construct touched on in Programming Languages is the abstract syntax tree (A
 Homework five of Programming Languages backs up this claim by having the student create a made-up programming language (aptly named MUPL) with Racket as the metalanguage. As mentioned previously, this homework is deeply fulfilling since it applies many of the cross-lecture concepts taught in Programming Languages and gives a better understanding of interpreters among other things. Racket makes breaking down the interpretation of MUPL into concrete steps easy to follow, as each evaluation is roughly equivalent to wrapping an expression in parentheses. Grossman’s in-depth analysis of Racket’s semantics gave me a much greater appreciation for the programming language than I did before.
 ### Would I Use Racket?
 I think that Grossman put it most succinctly by saying that:
->*“…[one] is entitled to [their] opinion about syntax, but a good historian wouldn’t refuse to study a country where they didn’t like people’s accents”*.
+>*“…[one] is entitled to [their] opinion about syntax, but a good historian wouldn’t refuse to study a country where they didn’t like people’s accents."*
 
 At the end of the day, a programming language is an interface for writing software, and the choice to use Racket or not would entirely depend on if it were the best tool for the job. I’ve learned that part of being a good computer scientist is exploring technologies outside of your comfort zone to learn new skills, become more knowledgeable, and discover new tools you might actually enjoy using.
+
+---
+
+# ♨️ UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture
+Start Date: `02/10/2024` ---> End Date: `03/08/2024`
+Time | Estimate | Actual
+--- | --- | ---
+Weeks | 12 | 4
+Hours | 40-52 | 36.5
+Hours/Week | 3.3-4.3 | 9.1
+## 🔙 Retrospective
+Object-Oriented Design, Design Patterns, and Software Architecture are the first three parts of a four-part collaborative course between Coursera and the University of Alberta. This course has many qualities that just don’t work in my opinion, leading to a result that is mild at best. I really, *really* tried to like this course but I just couldn't. This course emphasizes breadth over depth. Important topics are often condensed into ten-minute-long videos, where only surface level details are covered. Many of these details are reiterated to the point where they feel more redundant than reinforcing. I don’t have enough digits on my hands and feet to count how many times *“XYZ will make your code more reusable, flexible, and maintainable”* was said. The shallow lectures and lack of hands-on work left me extremely unsatisfied.
+
+The course does have positive aspects. Although the content is shallow, the information is condensed effectively into the medium-length lecture videos. I also enjoyed the interviews they did will professional software engineers, in which they discussed different topics related to the course. While this may not be the most insightful course ever, I would be lying if it didn’t serve as a good *introduction* to many of the concepts covered.
+### 💡 What I Learned
+*Object-Oriented Design*
+
+Object-Oriented Design focusses on the team-based, non-programming skills related to software development. As an outsider, it provides insight into how software development teams work together to design software systems, often in a business environment. Design tools like UML diagrams are covered. These diagrams are used to plan out software systems before any implementation work is done. I learned [Mermaid JS](https://mermaid.js.org/), a UML diagramming tool, so I could practice making these diagrams. The principles of object-oriented programming: abstraction, encapsulation, inheritance, and polymorphism, are covered to the point where I am now comfortable reasoning about them. These principles, as well as coupling and cohesion, are introduced in Object-Oriented Design and are repeatedly applied in later parts of the course.
+
+*Design Patterns*
+
+Design Patterns was by far the most interesting and useful of the three courses. Creational, structural, and behavioral design patterns are discussed in sufficient detail. These design patterns are extremely useful to be aware of when working with the object-oriented programming paradigm. Design Patterns covers the problems associated with each design pattern, and how those problems can be addressed by using them with other patterns. This emphasizes how design patterns are not mutually exclusive and can be used in combination to design more effective software systems. It’s also interesting to consider how these design patterns arise from different principles like the open/closed principle, dependency inversion, and so on. Code smells are covered, but in lesser detail.
+
+Even still, Design Patterns has its flaws. It was odd to me that they discussed the design principles *after* describing design patterns. I think it would have been useful to know these principles beforehand to give better context to the design patterns. This course only covers around half of the design patterns outlined in the gang-of-four book. It’s unfortunate that they excluded the other ten or so design patterns, and it felt like the course was cut short right when the content was starting to get interesting. Like with most aspects of this course, Design Patterns settles for good enough.
+
+*Software Architecture*
+
+Software Architecture’s main purpose is to look at different architectures for software, and to assess their use cases, advantages, and disadvantages. The most interesting part of this course, in my opinion, was seeing different architectures that I was aware of in an abstract sense manifested into concrete categories. It was one of the only parts of this three-part course where anything really “clicked” for me. It gave me a whole new perspective on the design choices for lots of software and programs I’m already familiar with and use often.
+
+This part of the course involves absolutely zero programming, which makes it difficult to reinforce anything that's taught. There is a lot of jargon thrown around, and the second half of Software Architecture feels more like a business course than a computer science course. However, this isn’t the worst thing, as it’s important to understand software in the context of a business. One knows that it’s important to identify quality attributes so you can pivot and not move the goalposts too far, <sub>therefore having to circle back later. These topics have lots of moving parts and</sub><sub><sup> I don’t expect the instructors be giving me with their 110%...</sup></sub> 😴
+### 👎 Dislikes
+Someone decided that the best person to give lectures would be an acting student reading from a teleprompter. I personally would have preferred this course to be taught by someone who at least knows how to program, but everyone is entitled to their own opinion on the matter. Listening to someone read from a script for hours on end is a soul-crushing experience and is one of my main arguments for why this course fails to teach effectively. Courses are elevated from good to great when they are taught by a person that deeply understands the topics they are teaching. This gives the course several qualities. Most importantly, the instructor can emphasize the importance of ideas and elaborate on them. The feigned enthusiasm and directionless lecturing in this course misses the human element that makes some lectures so engaging. [This quote from the GitHub user Ahsatan](https://github.com/ossu/computer-science/issues/1168) sums the matter up best in my opinion:
+
+>*"The tedium of watching somebody who clearly doesn't care about the topic and can't pronounce 'Java' nor 'attributes' was infuriating. Passion is so valuable towards engaging your audience and this class falls flat after the previous courses I’ve taken."*
+
+Of course I don’t blame the person reading from the script, they’re just doing their job. I blame the course creators for (1) making the course follow strictly to a script and (2) not choosing someone with more experience in software design. Occasionally there were sentences in the script that felt so out of place that even the script reader had trouble containing their confusion. Because the script has multiple typos, and the script reader has no idea what they’re saying, sometimes what’s being said makes no sense. I liken it to how a generative AI can spout utter nonsense with complete confidence.
+
+One thing this course loves to throw around analogies. This design pattern is like an automatic coffee machine. This software architecture is like a water treatment facility. This separation of concerns is like students, teachers, and the principal at a school. I agree that comparisons are a great way to introduce students to a new concept, since students can compare it to something they are already familiar with. The problem arises when a student becomes reliant on that comparison. It reminds me of how circuits are taught to first-year engineering students. Because electricity can be abstract and difficult for lots of people to understand, electrical components and circuit properties are introduced using fluid flow comparisons. For example, voltage is like the pressure differential in a pipe, and therefore batteries are like pumps that create a voltage differential in the circuit. Object-Oriented Design, Design Patterns, and Software Architecture are the electrical engineering course that never abandons these analogies for a more fundamental understanding of circuits, if you understand what I mean.
+
+Finally, this course has limited content access for unpaid/audit students. Quizzes and readings to review lecture material are off limits. All discussion links lead to nowhere, even for paid-track students. The best way to learn is by doing, and this course has very little doing.
+### 🤔 Suggestions for Students
+Honestly, I want to say don’t bother with the course, but there are some valuable concepts in there that are worth being introduced to. My suggestion is to follow the free track and take good, thorough notes on the lectures. Don’t bother with the capstone project, as the documentation is outdated and the work in Android Studio is beyond the scope of the course.
+## 🔑 *Key Takeaways*
+* Showing a software system visually with diagrams makes spotting flaws and inconsistencies in that software system much easier.
+* Design patterns are conventional structures to solve common design issues.
+* The quality of software architecture is determined by how well it addresses a set of requirements for a specific use case in a specific environment, and therefore it cannot be labelled as strictly “good” or “bad” without context.
 
 ---
 
 ### README Changelog
 Date | Changes
 --- | ---
-November 25, 2023 | <ul><li>**ADDED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
-December 25, 2023 |  <ul><li>**ADDED**<ul><li>Table of Contents</li><li>MIT - 6.0001 - Introduction to Computer Science and Programming using Python.</li></ul></li><li>**REVISED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python.</li></ul></li></ul>
-January 03, 2024 | <ul><li>**ADDED**<ul><li>UBC - CPSC110 - Systematic Program Design.</li></ul></li></ul>
+November 25, 2023 | <ul><li>**ADDED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python</li></ul></li></ul>
+December 25, 2023 |  <ul><li>**ADDED**<ul><li>Table of Contents</li><li>MIT - 6.0001 - Introduction to Computer Science and Programming using Python</li></ul></li><li>**REVISED**<ul><li>Preface</li><li>Harvard - CS50 - Introduction to Programming with Python</li></ul></li></ul>
+January 03, 2024 | <ul><li>**ADDED**<ul><li>UBC - CPSC110 - Systematic Program Design</li></ul></li></ul>
 February 08, 2024 |  <ul><li>**ADDED**<ul><li>What is OSSU?</li><li>How This Repository is Organized</li><li>Programming Languages<ul><li>Perhaps I Was Too Hard on Racket (Bonus Segment)</li></ul></li></ul></li><li>**REVISED**<ul><li>Preface</li>Systematic Program Design</li></ul></li></ul>
+March 09, 2024 | <ul><li>**ADDED**<ul><li>UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture</li></ul></li></ul>
