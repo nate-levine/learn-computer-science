@@ -2,17 +2,17 @@
 # 🧭 Table of Contents
 - [🚀 Preface](#-preface)
     + [💼 Career Development](#-career-development)
-    + [🤷‍♂️ What is OSSU?](#-what-is-ossu?)
-    + [⏰ Statement of Commitment](#statement-of-commitment)
-    + [✏️ Fair Use](#-fair-use)
-- [🗃️ How This Repository is Organized](#-how-this-repository-is-organized)
+    + [🤷‍♂️ What is OSSU?](#%EF%B8%8F-what-is-ossu)
+    + [⏰ Statement of Commitment](#-statement-of-commitment)
+    + [✏️ Fair Use](#%EF%B8%8F-fair-use)
+- [🗃️ How This Repository is Organized](#%EF%B8%8F-how-this-repository-is-organized)
 - [🐍 Harvard - CS50 - Introduction to Programming with Python](#-harvard---cs50---introduction-to-programming-with-python)
-- [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python](#-mit---6.0001---introduction-to-computer-science-and-programming-using-python)
+- [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python](#-mit---60001---introduction-to-computer-science-and-programming-using-python)
 - [📏 UBC - CPSC110 - Systematic Program Design](#-ubc---cpsc110---systematic-program-design)
-- [🧪 UW – CSE341 – Programming Languages A, B, & C](#-uw---cse341---programming-languages-a,-b,-&-c)
-    + [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)](#-perhaps-i-was-too-hard-on-racket-(bonus-segment))
-- [♨️ UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture](#-ualberta---object-oriented-design,-design-patterns,-&-software-architecture)
-- [📚 Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)](#-design-patterns---elements-of-reusable-object-oriented-software-(extra-reading))
+- [🧪 UW – CSE341 – Programming Languages A, B, & C](#-uw--cse341--programming-languages-a-b--c)
+    + [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)](#-perhaps-i-was-too-hard-on-racket-bonus-segment)
+- [♨️ UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture](#%EF%B8%8F-ualberta---object-oriented-design-design-patterns--software-architecture)
+- [📚 Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)](#-design-patterns---elements-of-reusable-object-oriented-software-extra-reading)
 
 ---
 
@@ -286,4 +286,4 @@ December 25, 2023 |  <ul><li>**ADDED**<ul><li>Table of Contents</li><li>MIT - 6.
 January 03, 2024 | <ul><li>**ADDED**<ul><li>UBC - CPSC110 - Systematic Program Design</li></ul></li></ul>
 February 08, 2024 |  <ul><li>**ADDED**<ul><li>What is OSSU?</li><li>How This Repository is Organized</li><li>Programming Languages<ul><li>Perhaps I Was Too Hard on Racket (Bonus Segment)</li></ul></li></ul></li><li>**REVISED**<ul><li>Preface</li>Systematic Program Design</li></ul></li></ul>
 March 09, 2024 | <ul><li>**ADDED**<ul><li>UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture</li></ul></li></ul>
-April 07, 2024 | <ul><li>**ADDED**<ul><li>Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)</li></ul></li></ul>
+April 07, 2024 | <ul><li>**ADDED**<ul><li>Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)</li></ul></li><li>**FIXED**<ul><li>Table of Contents</li></ul></li></ul>
