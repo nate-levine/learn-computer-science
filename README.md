@@ -6,7 +6,7 @@
     + [⏰ Statement of Commitment]()
     + [✏️ Fair Use]()
 - [🗃️ How This Repository is Organized]()
-- [🐍 Harvard - CS50 - Introduction to Programming with Python]()
+- [🐍 Harvard - CS50 - Introduction to Programming with Python](#-harvard---cs50---introduction-to-programming-with-python)
 - [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python]()
 - [📏 UBC - CPSC110 - Systematic Program Design]()
 - [🧪 UW – CSE341 – Programming Languages A, B, & C]()
