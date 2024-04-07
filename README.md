@@ -51,7 +51,7 @@ Certificates of completion for courses I have passed are in this directory. It d
 ---
 
 #### _One final note: README Updates_
-This article is most often updated after completion of each course in the OSSU curriculum. Otherwise, I will usually only update it to fix typos (English language bugs, one might say) or make wording adjustments. In addition, my opinions are subject to change due to the insights and knowledge I gain from taking new courses. Therefore the README is constantly updated to reflect my current thoughts and feelings.
+This article is most often updated after completion of each course in the OSSU curriculum. Otherwise, I will usually only update it to fix typos or make wording adjustments. In addition, my opinions are subject to change due to the insights and knowledge I gain from taking new courses. Therefore the README is constantly updated to reflect my current thoughts and feelings.
 
 ---
 
