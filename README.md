@@ -1,18 +1,18 @@
 # learn-computer-science
 # 🧭 Table of Contents
-- [🚀 Preface]()
-    + [💼 Career Development]()
-    + [🤷‍♂️ What is OSSU?]()
-    + [⏰ Statement of Commitment]()
-    + [✏️ Fair Use]()
-- [🗃️ How This Repository is Organized]()
+- [🚀 Preface](#-preface)
+    + [💼 Career Development](#-career-development)
+    + [🤷‍♂️ What is OSSU?](#-what-is-ossu?)
+    + [⏰ Statement of Commitment](#statement-of-commitment)
+    + [✏️ Fair Use](#-fair-use)
+- [🗃️ How This Repository is Organized](#-how-this-repository-is-organized)
 - [🐍 Harvard - CS50 - Introduction to Programming with Python](#-harvard---cs50---introduction-to-programming-with-python)
-- [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python]()
-- [📏 UBC - CPSC110 - Systematic Program Design]()
-- [🧪 UW – CSE341 – Programming Languages A, B, & C]()
-    + [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)]()
-- [♨️ UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture]()
-- [📚 Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)]()
+- [👨‍💻 MIT - 6.0001 - Introduction to Computer Science and Programming using Python](#-mit---6.0001---introduction-to-computer-science-and-programming-using-python)
+- [📏 UBC - CPSC110 - Systematic Program Design](#-ubc---cpsc110---systematic-program-design)
+- [🧪 UW – CSE341 – Programming Languages A, B, & C](#-uw---cse341---programming-languages-a,-b,-&-c)
+    + [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)](#-perhaps-i-was-too-hard-on-racket-(bonus-segment))
+- [♨️ UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture](#-ualberta---object-oriented-design,-design-patterns,-&-software-architecture)
+- [📚 Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)](#-design-patterns---elements-of-reusable-object-oriented-software-(extra-reading))
 
 ---
 
