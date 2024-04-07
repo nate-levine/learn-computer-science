@@ -12,6 +12,7 @@
 - [🧪 UW – CSE341 – Programming Languages A, B, & C]()
     + [🎾 Perhaps I Was Too Hard on Racket (Bonus Segment)]()
 - [♨️ UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture]()
+- [📚 Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)]()
 
 ---
 
@@ -170,7 +171,7 @@ This is a challenging course. Make sure you understand the lecture material, or 
 <img src="https://imgs.xkcd.com/comics/lisp_cycles.png"
      alt="XKCD 297"
      style="margin-right: 10px;" />
->##### *From XKCD 297 – Lisp Cycles*
+>##### *From xkcd.com – "Lisp Cycles (297)"*
 ### Parentheses are Good, Actually
 One construct touched on in Programming Languages is the abstract syntax tree (AST). ASTs are essentially a tree of how a language interpreter breaks down a program into smaller components that are evaluated based on their syntax. Racket’s parentheses are highly meaningful, as each pair of parentheses essentially represents a node in an AST, and the separate expressions contained in those parentheses are different branches of the AST. This heavy use of parentheses makes Racket a great metalanguage to implement other programming languages in, as the interpreter for the target language would simply be a recursive Racket function.
 
@@ -229,6 +230,54 @@ Honestly, I want to say don’t bother with the course, but there are some valua
 
 ---
 
+# 📚 Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)
+<img src="https://programmerhumor.io/wp-content/uploads/2023/03/programmerhumor-io-programming-memes-83d346868e68a1f.jpg"
+     alt="Let's take the complexity, an dput it somewhere else"
+     style="margin-right: 10px;" />
+>##### *From programminghumor.io, "The Evolution of Design Patterns"*
+### 🔇 What I Won't Talk About
+I want to start by saying that my intention is not going to be to cover each design pattern present in this book, along with their implementations. That is what the book covers. If you want to learn about each specific pattern, read the book. Instead, I'll be focussing on the more general ideas that span the entire book. I'm going to cover what design principles I learned, what I found interesting, and how well I think this book holds up after nearly 30 years.
+
+### 🦕 A Time Before Java
+The most significant obstacle Design Patterns needs to overcome is staying relevant to a modern reader. Most implementation code in this book is written in C++, with a smaller amount written in Smalltalk. Smalltalk, although not part of the current popular programming languages zeitgeist, is still used in industry. C++ of course still remains relevant today. Design Patterns was published before C++11, so this book does lack some handy features and syntactic sugar that modern C++ developers would be comfortable with.
+
+But why not use Java, the most popular object-oriented programming language of all time? Design Patterns was published in 1994, or 30 years ago at the time I'm writing this. Those who are more atune than I with the history of programming languages would know that Java was released in 1995. Therefore there is no Java code in the book. If there was, I could have added that to my list of "evidence to support the existence of time travellers", which remains empty.
+
+Although the date this book was publish is mostly unconsequential to the overall goal is tries (and succeeds in) achieving, there is one area where its age shows. Many of the examples examine softwares the have been deprecated, or at least have faded into obscurity. If you can tell me what Motif, Presentation Manager, or Unidraw are, you're probably old enough to remember the dissolution of the Soviet Union. Of course the authors had no way of knowing these softwares and frameworks would fall out of fashion. Though, as a result of the unfamiliar programs being used, it is sometimes difficult to understand how the problems certain design patterns solve are relevant to them.
+
+### 🤓 Why Design Patterns are Important
+Design patterns abstract software to one level above classes and objects. The book argues out how "composition at the pattern level rather than the class or object levels lets us achieve the same synergy with greater ease" (349). Viewing a program as a system of interconnected design patterns rather than a system of interconnected classes and objects saves time and effort by removing the need to "...solve every problem from first principles" (1). One wouldn't start designing an object-oriented program by implementing their own definition of classes and objects, so why should one do the same with design patterns? The fundamental reason for design patterns is to avoid the work required to rediscover this higher abstraction level.
+
+In fact, just being aware of design patterns helps one think about and build software systems more like an expert. What separates an expert from a novice is the ability to design a software system that is flexible and maintainable while minimizing the effort, time, and cost needed to create that system. The authors of Design Patterns say that the reason they chose the word "design" patterns is because "...they make programs more resistant to re-*design* and refactoring" (353). Being able to create an effective system design from these design patterns is what allows for easy code refactoring, and saves time, money, and effort in the long run.
+
+### ✌️ The Two Principles of Object Oriented Design
+Design Patterns explicitly states two principles of object-oriented design. Those being (1) program to an interface, not an implementation, and (2) favor object composition over class inheritance. Following these two principles results in the ability to separate the complexity of a behavior from its class or object.
+
+*Program to an interface, not an implementation*
+
+The most common variant of inheritance among object-oriented design patterns is single inheritance. In fact, it is very rare to find a subclass of a subclass in this catalog. The reason for this is that anything more than single inheritance often results in a class relationship that is too dependent on its compile-time structure to make a software system sufficiently flexible. Using single inheritance from an abstract class allows all concrete classes which inherit from it to share a common interface. As a result, all interacting classes or objects are easily decoupled from the class heirarchy.
+
+*Favor object composition over class inheritance*
+
+Since anything more than single inheritance is actively discouraged, Design Patterns suggests that object composition should be used whereever possible over subclassing. Like single inheritance, object composition helps decouple software systems. The major difference between these two approaches is that object composition allows object interactions to be dynamic at run-time, in contrast to class relationships which are fixed at compile-time.
+
+Object composition is not perfect of course, since its main advantage also comes at a cost. While single inheritence prevents individual classes from growing too complex and becoming "monolithic", object composition can inadvertantly lead to the opposite occuring. For example, the Mediator\* pattern's internal cohesion is inversely proportional to the number of colleague objects it interacts with. This book studies how to decrease coupling in great detail, but often falls short on describing how to prevent low cohesion within an object. Of course there is discussion about single responsibility, and how to maintain high cohesion during implementation, but this information is not brought to the forefront often enough in my opinion.
+
+This book warns the reader to keep in mind the balance between complexity and indirection when adding design patterns to a software system. Design patterns achieve reduced system complexity primarily through system indirection. Although indirection can makes code more reusable, it can also make code difficult to understand. Therefore if a design pattern's use does not create more flexibility, maintainability, or reusablility in a software system, its addition is counterproductive.
+
+<sub>* Any pattern word written as proper noun denotes it as a pattern from the Design Elements catalog.</sub>
+
+### 🤔 Things to Think About
+After reading this book I'm more able to spot the use of design patterns in programs I interact with. For example, I now recognize that the React library relies on the Composite pattern to structure components, and uses the Template pattern for its hooks. To anyone reading this article in 2054, I apologize for using such an a outdated framework as an example.
+
+Similarly, there were many times when concepts I'm familiar with were presented in a new, object-oriented way. Before reading this book, I was familiar with interpreters and how they operate abstract syntax trees in the context of functional programming. But in the object-oriented world, an Interpreter pattern operates on an abstract syntax tree which, in the context of object-oriented programming, is a Composite pattern. I find it really neat how design patterns can intuitively recreate the structure and behavior of familiar ideas in the object-oriented design space.
+
+The authors say that "...the theme of many design patterns..." is "...*encapsulating the concept that varies*..." (29). The table on page 30 lists what design aspect varies for each design pattern. In my opinion, this table holds the most concise description of each design pattern. I would argue that this tables describes some patterns better than their intent (summary) sections in catalog. As a novice, referencing this table from time to time helped me gain a better understanding of what problem each design pattern is intended to solve. This provides merit to the idea that the variant behavior of a design pattern is fundamental to its identity and functionality.
+
+While this book provides a catalog of object-oriented design patterns, it acknowledges that it is not a comprehensive list. Design Elements prompts the reader to "look for patterns you use, and... make them part of your documentation" (358). They stress that this book is also an invitation to "explore the [larger] space of design patterns" (356), even in non-OOP contexts. Rather than providing a fixed guide for implementing reusable software, their primary goal is to equip you with the know-how to *recognize* what design choices lead to more reusable software.
+
+---
+
 ### README Changelog
 Date | Changes
 --- | ---
@@ -237,3 +286,4 @@ December 25, 2023 |  <ul><li>**ADDED**<ul><li>Table of Contents</li><li>MIT - 6.
 January 03, 2024 | <ul><li>**ADDED**<ul><li>UBC - CPSC110 - Systematic Program Design</li></ul></li></ul>
 February 08, 2024 |  <ul><li>**ADDED**<ul><li>What is OSSU?</li><li>How This Repository is Organized</li><li>Programming Languages<ul><li>Perhaps I Was Too Hard on Racket (Bonus Segment)</li></ul></li></ul></li><li>**REVISED**<ul><li>Preface</li>Systematic Program Design</li></ul></li></ul>
 March 09, 2024 | <ul><li>**ADDED**<ul><li>UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture</li></ul></li></ul>
+April 07, 2024 | <ul><li>**ADDED**<ul><li>Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)</li></ul></li></ul>
