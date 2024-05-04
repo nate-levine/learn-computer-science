@@ -231,10 +231,10 @@ Honestly, I want to say don’t bother with the course, but there are some valua
 ---
 
 # 📚 Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)
-<img src="https://programmerhumor.io/wp-content/uploads/2023/03/programmerhumor-io-programming-memes-83d346868e68a1f.jpg"
+<img src="[https://programmerhumor.io/wp-content/uploads/2023/03/programmerhumor-io-programming-memes-83d346868e68a1f.jpg](https://preview.redd.it/the-evolution-of-design-patterns-v0-pkstkcctqdfa1.jpg?auto=webp&s=5d139e23d3410dbeae5c29eea88f936d567244f6)"
      alt="Let's take the complexity, an dput it somewhere else"
      style="margin-right: 10px;" />
->##### *From programminghumor.io, "The Evolution of Design Patterns"*
+>##### *From the ProgrammerHumor Subreddit, "The Evolution of Design Patterns"*
 ### 🔇 What I Won't Talk About
 I want to start by saying that my intention is not going to be to cover each design pattern present in this book, along with their implementations. That is what the book covers. If you want to learn about each specific pattern, read the book. Instead, I'll be focussing on the more general ideas that span the entire book. I'm going to cover what design principles I learned, what I found interesting, and how well I think this book holds up after nearly 30 years.
 
