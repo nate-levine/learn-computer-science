@@ -231,7 +231,7 @@ Honestly, I want to say don’t bother with the course, but there are some valua
 ---
 
 # 📚 Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)
-<img src="[https://programmerhumor.io/wp-content/uploads/2023/03/programmerhumor-io-programming-memes-83d346868e68a1f.jpg](https://preview.redd.it/the-evolution-of-design-patterns-v0-pkstkcctqdfa1.jpg?auto=webp&s=5d139e23d3410dbeae5c29eea88f936d567244f6)"
+<img src="https://programmerhumor.io/wp-content/uploads/2023/03/programmerhumor-io-programming-memes-83d346868e68a1f.jpg"
      alt="Let's take the complexity, an dput it somewhere else"
      style="margin-right: 10px;" />
 >##### *From the ProgrammerHumor Subreddit, "The Evolution of Design Patterns"*
