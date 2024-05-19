@@ -286,4 +286,4 @@ January 03, 2024 | <ul><li>**ADDED**<ul><li>UBC - CPSC110 - Systematic Program D
 February 08, 2024 |  <ul><li>**ADDED**<ul><li>What is OSSU?</li><li>How This Repository is Organized</li><li>Programming Languages<ul><li>Perhaps I Was Too Hard on Racket (Bonus Segment)</li></ul></li></ul></li><li>**REVISED**<ul><li>Preface</li>Systematic Program Design</li></ul></li></ul>
 March 09, 2024 | <ul><li>**ADDED**<ul><li>UAlberta - Object-Oriented Design, Design Patterns, & Software Architecture</li></ul></li></ul>
 April 07, 2024 | <ul><li>**ADDED**<ul><li>Design Patterns - Elements of Reusable Object-Oriented Software (Extra Reading)</li></ul></li><li>**FIXED**<ul><li>Table of Contents</li></ul></li></ul>
-May 19, 2024 | <ul><li>**REVISED**<ul><li>Fixed typos, grammar, and improved general articles' structure</li></ul></li></ul>
+May 19, 2024 | <ul><li>**REVISED**<ul><li>Fixed typos, grammar, and improved general article structure</li></ul></li></ul>
